@@ -17,7 +17,8 @@ public class Main {
             System.out.println("The salary for Part time employees is: " + ep.getSalary());
 
         } catch (Exception e) {
-           System.out.println(e.getMessage());
+            System.out.println("Salary should be in the float data type. Detailed error:");
+           e.printStackTrace();
         }
     }
 }
